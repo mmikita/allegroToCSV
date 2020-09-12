@@ -36,8 +36,7 @@ GenerateCSV service;
 	public String products() throws Exception {
 		
 		
-		String command = "curl -X POST https://postman-echo.com/post --data foo1=bar1&foo2=bar2";
-		Process process = Runtime.getRuntime().exec(command);
+
 
 
 		
@@ -64,16 +63,23 @@ GenerateCSV service;
 	
 	
 	public static void call_me() throws Exception {
-	     String url = "http://api.ipinfodb.com/v3/ip-city/?key=d64fcfdfacc213c7ddf4ef911dfe97b55e4696be3532bf8302876c09ebd06b&ip=74.125.45.100&format=json";
+	     String url = "https://allegro.pl.allegrosandbox.pl/auth/oauth/authorize?response_type=code&client_id=d20d65b102d54365a920e6f56f13a4f9&redirect_uri=http://localhost:8080/";
 	     URL obj = new URL(url);
 	     HttpURLConnection con = (HttpURLConnection) obj.openConnection();
 	     // optional default is GET
 	     con.setRequestMethod("GET");
 	     //add request header
-	     con.setRequestProperty("User-Agent", "Mozilla/5.0");
+	//     con.setRequestProperty("response_type", "code");
+	  //   con.setRequestProperty("client_id", "d20d65b102d54365a920e6f56f13a4f9");
+	    // con.setRequestProperty("CURLOPT_PASSWORD", "A7HmDIXNYiD0islMfjEDI80DRQKI9zIqn4HkDI4vr5C4PfjnbMZ9JnDXTCMAxf7L");
+	    // con.setRequestProperty("CURLOPT_HTTPAUTH", "CURLAUTH_BASIC");
+	     //con.setRequestProperty("CURLOPT_RETURNTRANSFER", "1");
+
+	     
+	     
 	     int responseCode = con.getResponseCode();
 	     System.out.println("\nSending 'GET' request to URL : " + url);
-	     System.out.println("Response Code : " + responseCode);
+	     System.out.println("Response Code : " + responseCode + "  :" + con.getResponseMessage());
 	     BufferedReader in = new BufferedReader(
 	             new InputStreamReader(con.getInputStream()));
 	     String inputLine;

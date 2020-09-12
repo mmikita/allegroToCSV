@@ -1,0 +1,489 @@
+https://allegro.pl.allegrosandbox.pl/login/user
+
+
+{
+   "items":{
+      "promoted":[
+
+      ],
+      "regular":[
+         {
+            "id":"6958966754",
+            "name":"RURA OKR\u0104G\u0141A KWASOODPORNA \u00d8 80 L1000 mm GAZ \/ OLEJ",
+            "seller":{
+               "id":"44090896",
+               "company":false,
+               "superSeller":false
+            },
+            "promotion":{
+               "emphasized":false,
+               "bold":false,
+               "highlight":false
+            },
+            "delivery":{
+               "availableForFree":false,
+               "lowestPrice":{
+                  "amount":"10.00",
+                  "currency":"PLN"
+               }
+            },
+            "images":[
+               {
+                  "url":"https:\/\/a.allegroimg.allegrosandbox.pl\/original\/11b15e\/75bce6d84278961e3961d711e35e\/RURA-OKRAGLA-KWASOODPORNA-Oe-80-L1000-mm-GAZ-OLEJ"
+               },
+               {
+                  "url":"https:\/\/a.allegroimg.allegrosandbox.pl\/original\/11914f\/abbec45743f3ae127f194ec74233\/RURA-OKRAGLA-KWASOODPORNA-Oe-80-L1000-mm-GAZ-OLEJ-Marka-mk-zary"
+               },
+               {
+                  "url":"https:\/\/a.allegroimg.allegrosandbox.pl\/original\/1119bb\/93d4bf244c3993eb9f1a49b60b0a\/RURA-OKRAGLA-KWASOODPORNA-Oe-80-L1000-mm-GAZ-OLEJ-Kod-produktu-324"
+               }
+            ],
+            "sellingMode":{
+               "format":"BUY_NOW",
+               "price":{
+                  "amount":"50.00",
+                  "currency":"PLN"
+               },
+               "popularity":0
+            },
+            "stock":{
+               "unit":"UNIT",
+               "available":992
+            },
+            "category":{
+               "id":"27970"
+            }
+         }
+      ]
+   },
+   "searchMeta":{
+      "availableCount":1,
+      "totalCount":1,
+      "fallback":false
+   },
+   "categories":{
+      "subcategories":[
+         {
+            "id":"5",
+            "name":"Dom i Ogr\u00f3d",
+            "count":1
+         }
+      ],
+      "path":[
+         {
+            "id":"954b95b6-43cf-4104-8354-dea4d9b10ddf",
+            "name":"Allegro"
+         }
+      ]
+   },
+   "filters":[
+      {
+         "id":"parameter.11323",
+         "type":"MULTI",
+         "name":"Stan",
+         "values":[
+            {
+               "value":"11323_1",
+               "name":"nowe",
+               "count":1,
+               "selected":false
+            },
+            {
+               "value":"11323_2",
+               "name":"u\u017cywane",
+               "count":0,
+               "selected":false
+            },
+            {
+               "value":"11323_246466",
+               "name":"bie\u017cnikowane",
+               "count":0,
+               "selected":false
+            },
+            {
+               "value":"11323_238070",
+               "name":"niepe\u0142ny komplet",
+               "count":0,
+               "selected":false
+            },
+            {
+               "value":"11323_246510",
+               "name":"nowe bez metki",
+               "count":0,
+               "selected":false
+            },
+            {
+               "value":"11323_246514",
+               "name":"nowe z defektem",
+               "count":0,
+               "selected":false
+            },
+            {
+               "value":"11323_238066",
+               "name":"po zwrocie",
+               "count":0,
+               "selected":false
+            },
+            {
+               "value":"11323_238058",
+               "name":"powystawowe",
+               "count":0,
+               "selected":false
+            },
+            {
+               "value":"11323_246462",
+               "name":"regenerowane",
+               "count":0,
+               "selected":false
+            },
+            {
+               "value":"11323_238062",
+               "name":"uszkodzone",
+               "count":0,
+               "selected":false
+            },
+            {
+               "value":"11323_246534",
+               "name":"odnowione przez producenta",
+               "count":0,
+               "selected":false
+            },
+            {
+               "value":"11323_246538",
+               "name":"odnowione przez sprzedawc\u0119",
+               "count":0,
+               "selected":false
+            },
+            {
+               "value":"11323_253798",
+               "name":"do renowacji",
+               "count":0,
+               "selected":false
+            },
+            {
+               "value":"11323_253802",
+               "name":"po renowacji",
+               "count":0,
+               "selected":false
+            },
+            {
+               "value":"11323_253806",
+               "name":"niewymagaja\u0328ce renowacji",
+               "count":0,
+               "selected":false
+            }
+         ]
+      },
+      {
+         "id":"sellingMode.format",
+         "type":"MULTI",
+         "name":"rodzaj oferty",
+         "values":[
+            {
+               "value":"BUY_NOW",
+               "name":"kup teraz",
+               "count":1,
+               "selected":false
+            },
+            {
+               "value":"AUCTION",
+               "name":"licytacje",
+               "count":0,
+               "selected":false
+            },
+            {
+               "value":"ADVERTISEMENT",
+               "name":"og\u0142oszenia",
+               "count":0,
+               "selected":false
+            }
+         ]
+      },
+      {
+         "id":"price",
+         "type":"NUMERIC",
+         "name":"cena",
+         "values":[
+            {
+               "idSuffix":".from",
+               "name":"od",
+               "selected":false
+            },
+            {
+               "idSuffix":".to",
+               "name":"do",
+               "selected":false
+            }
+         ],
+         "minValue":0,
+         "maxValue":1000000000,
+         "unit":"z\u0142"
+      },
+      {
+         "id":"deliveryMethod",
+         "type":"MULTI",
+         "name":"sposoby dostawy",
+         "values":[
+            {
+               "value":"5b445fa0580ce26bb2f99602",
+               "name":"Kurier",
+               "count":1,
+               "selected":false
+            },
+            {
+               "value":"5b446044580ce26bb2f99612",
+               "name":"Odbi\u00f3r osobisty",
+               "count":1,
+               "selected":false
+            },
+            {
+               "value":"5b44605c580ce26bb2f99614",
+               "name":"Przesy\u0142ka elektroniczna",
+               "count":1,
+               "selected":false
+            },
+            {
+               "value":"5b445fe6580ce26bb2f9960a",
+               "name":"Paczkomaty InPost",
+               "count":0,
+               "selected":false
+            },
+            {
+               "value":"5b446004580ce26bb2f9960c",
+               "name":"Odbi\u00f3r w punkcie",
+               "count":0,
+               "selected":false
+            },
+            {
+               "value":"5b446013580ce26bb2f9960e",
+               "name":"List",
+               "count":0,
+               "selected":false
+            },
+            {
+               "value":"5b446031580ce26bb2f99610",
+               "name":"Paczka",
+               "count":0,
+               "selected":false
+            }
+         ]
+      },
+      {
+         "id":"location.city",
+         "type":"TEXT",
+         "name":"miejscowo\u015b\u0107",
+         "values":[
+            {
+               "name":"miejscowo\u015b\u0107",
+               "selected":false
+            }
+         ]
+      },
+      {
+         "id":"location.province",
+         "type":"SINGLE",
+         "name":"wojew\u00f3dztwo",
+         "values":[
+            {
+               "value":"DOLNOSLASKIE",
+               "name":"z dolno\u015bl\u0105skiego",
+               "selected":false
+            },
+            {
+               "value":"KUJAWSKO_POMORSKIE",
+               "name":"z kujawsko-pomorskiego",
+               "selected":false
+            },
+            {
+               "value":"LUBELSKIE",
+               "name":"z lubelskiego",
+               "selected":false
+            },
+            {
+               "value":"LUBUSKIE",
+               "name":"z lubuskiego",
+               "selected":false
+            },
+            {
+               "value":"LODZKIE",
+               "name":"z \u0142\u00f3dzkiego",
+               "selected":false
+            },
+            {
+               "value":"MALOPOLSKIE",
+               "name":"z ma\u0142opolskiego",
+               "selected":false
+            },
+            {
+               "value":"MAZOWIECKIE",
+               "name":"z mazowieckiego",
+               "selected":false
+            },
+            {
+               "value":"OPOLSKIE",
+               "name":"z opolskiego",
+               "selected":false
+            },
+            {
+               "value":"PODKARPACKIE",
+               "name":"z podkarpackiego",
+               "selected":false
+            },
+            {
+               "value":"PODLASKIE",
+               "name":"z podlaskiego",
+               "selected":false
+            },
+            {
+               "value":"POMORSKIE",
+               "name":"z pomorskiego",
+               "selected":false
+            },
+            {
+               "value":"SLASKIE",
+               "name":"ze \u015bl\u0105skiego",
+               "selected":false
+            },
+            {
+               "value":"SWIETOKRZYSKIE",
+               "name":"ze \u015bwi\u0119tokrzyskiego",
+               "selected":false
+            },
+            {
+               "value":"WARMINSKO_MAZURSKIE",
+               "name":"z warmi\u0144sko-mazurskiego",
+               "selected":false
+            },
+            {
+               "value":"WIELKOPOLSKIE",
+               "name":"z wielkopolskiego",
+               "selected":false
+            },
+            {
+               "value":"ZACHODNIOPOMORSKIE",
+               "name":"z zachodniopomorskiego",
+               "selected":false
+            }
+         ]
+      },
+      {
+         "id":"option",
+         "type":"MULTI",
+         "name":"oferta ma",
+         "values":[
+            {
+               "value":"FREE_SHIPPING",
+               "name":"darmowa dostawa",
+               "selected":false
+            },
+            {
+               "value":"FREE_RETURN",
+               "name":"darmowy zwrot",
+               "selected":false
+            },
+            {
+               "value":"VAT_INVOICE",
+               "name":"faktura VAT",
+               "selected":false
+            },
+            {
+               "value":"COINS",
+               "name":"Monety Allegro",
+               "selected":false
+            },
+            {
+               "value":"BRAND_ZONE",
+               "name":"Strefa Marek",
+               "selected":false
+            },
+            {
+               "value":"SUPERSELLER",
+               "name":"Super Sprzedawca",
+               "selected":false
+            },
+            {
+               "value":"CHARITY",
+               "name":"Allegro Charytatywni",
+               "selected":false
+            },
+            {
+               "value":"SMART",
+               "name":"Allegro Smart!",
+               "selected":false
+            }
+         ]
+      },
+      {
+         "id":"campaign",
+         "type":"MULTI",
+         "name":"kampania",
+         "values":[
+            {
+               "value":"INSTALLMENTS_ZERO",
+               "name":"raty zero",
+               "selected":false
+            },
+            {
+               "value":"BARGAIN",
+               "name":"Strefa Okazji",
+               "selected":false
+            },
+            {
+               "value":"BARGAIN_REBATE",
+               "name":"rabaty",
+               "selected":false
+            }
+         ]
+      }
+   ],
+   "sort":[
+      {
+         "value":"-relevance",
+         "name":"trafno\u015b\u0107",
+         "order":"najwi\u0119ksza",
+         "selected":true
+      },
+      {
+         "value":"+price",
+         "name":"cena",
+         "order":"od najni\u017cszej",
+         "selected":false
+      },
+      {
+         "value":"-price",
+         "name":"cena",
+         "order":"od najwy\u017cszej",
+         "selected":false
+      },
+      {
+         "value":"+withDeliveryPrice",
+         "name":"cena z dostaw\u0105",
+         "order":"od najni\u017cszej",
+         "selected":false
+      },
+      {
+         "value":"-withDeliveryPrice",
+         "name":"cena z dostaw\u0105",
+         "order":"od najwy\u017cszej",
+         "selected":false
+      },
+      {
+         "value":"-popularity",
+         "name":"popularno\u015b\u0107",
+         "order":"najwi\u0119ksza",
+         "selected":false
+      },
+      {
+         "value":"+endTime",
+         "name":"czas do ko\u0144ca",
+         "order":"najmniej",
+         "selected":false
+      },
+      {
+         "value":"-startTime",
+         "name":"czas dodania",
+         "order":"najnowsze",
+         "selected":false
+      }
+   ]
+}
